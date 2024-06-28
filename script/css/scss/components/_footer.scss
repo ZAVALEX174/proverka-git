@@ -1,0 +1,120 @@
+.footer {
+  position: relative;
+  margin-top: -205px;
+  padding-top: 18px;
+  background: rgba(12, 17, 19, 0.9);
+
+  @media #{$tablet} {
+    margin-top: -136px;
+  }
+
+  .footer__container {
+    display: flex;
+    // flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 44px;
+    align-items: flex-end;
+
+    .footer__left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .footer__nav {
+        margin-bottom: 77px;
+
+        @media #{$tablet} {
+          display: none;
+        }
+      }
+
+      .footer__left-down {
+        .copyright {
+          display: flex;
+          flex-direction: column;
+
+          p {
+            display: inline-block;
+            // display: block;
+            padding: 0;
+            margin: 0;
+            // display: inline-block;
+            color: #394a5e;
+            font-family: $font-family-title;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            a {
+              padding: 0;
+              margin: 0;
+              display: inline-block;
+              color: #394a5e;
+              font-family: $font-family-title;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+
+          address {
+            padding: 0;
+            margin: 0;
+            display: block;
+            font-style: normal;
+            color: #394a5e;
+            font-family: $font-family-title;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+      }
+    }
+
+    .footer__right {
+      display: flex;
+      align-items: center;
+
+      .footer__social {
+        margin-right: 43px;
+        align-self: center;
+        margin-top: -14px;
+
+        @media #{$notebook_s} {
+          margin-right: 30px;
+        }
+
+        .social__item {
+          .social__link {
+            svg {
+              color: #3a4b5e;
+              // opacity: 0.6;
+            }
+          }
+        }
+      }
+
+      .footer__contact {
+        margin-right: 53px;
+        text-align: end;
+        align-self: center;
+
+        .contact__tel {
+        }
+
+        .contact__order-call {
+          color: $color-granat-call;
+        }
+      }
+
+      .logo__dev {
+        align-self: center;
+      }
+    }
+  }
+}

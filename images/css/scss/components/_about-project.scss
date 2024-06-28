@@ -1,0 +1,213 @@
+.about-project {
+
+  h2 {
+    margin-bottom: 46px;
+    font-size: 50px;
+
+    @media #{$laptop} {
+      margin-bottom: 35px;
+    }
+
+    @media #{$tablet} {
+      font-size: 35px;
+      margin-bottom: 28px;
+      padding-left: 10px;
+    }
+  }
+
+  .about-project__container {
+    background: url('../images/about-project/01.png') no-repeat top
+      right/50% 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -60px;
+    padding-top: 44px;
+    padding-bottom: 111px;
+
+    @media #{$laptop} {
+      background: url('../images/about-project/01.png') no-repeat bottom
+      center/contain;
+      margin-top: 0;
+      padding: 0 10px 0;
+      margin-bottom: 71px;
+    }
+
+    //@media #{$phone} {
+    //  margin-bottom: 71px;
+    //}
+
+    .about-project__wrapper {
+      display: flex;
+
+      @media #{$laptop} {
+        margin-bottom: 60%;
+      }
+
+      @media #{$phone} {
+        margin-bottom: 164px;
+      }
+
+      .about-project__description {
+        position: relative;
+        width: 1130px;
+        //width: 100%;
+        margin-left: 127px;
+        margin-right: -300px;
+        background: rgba(255, 255, 255, 0.8);
+        -webkit-backdrop-filter: blur(2px);
+        backdrop-filter: blur(2px);
+        padding: 51px 40px 41px 116px;
+        //border: 1px solid brown;
+
+        @media #{$laptop} {
+          padding: 51px 40px 70px 40px;
+          margin-left: 0;
+          margin-right: 0;
+          max-width: 1130px;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        @media #{$phone} {
+          padding: 0 5px 60px 10px;
+        }
+
+        p {
+          padding: 0;
+          margin: 0;
+          color: #2c3e46;
+          font-family: $font-family-title;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 22px;
+          margin-bottom: 24px;
+
+          @media #{$phone} {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+            margin-bottom: 15px;
+          }
+        }
+
+        p:nth-child(1) {
+          strong {
+            color: #2c3e46;
+            font-family: $font-family-base;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px; /* 73.333% */
+          }
+        }
+
+        p:nth-child(2) {
+
+          @media #{$phone} {
+            margin-bottom: 17px;
+          }
+
+          strong {
+            color: #2c3e46;
+            font-family: $font-family-title;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px;
+
+            @media #{$phone} {
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 18px;
+            }
+          }
+        }
+
+        .ul {
+          p {
+            margin-bottom: 0;
+
+            strong {
+              color: #2c3e46;
+              font-family: $font-family-title;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 22px;
+
+              @media #{$phone} {
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 18px;
+              }
+            }
+          }
+
+          p:not(p:nth-child(1)) {
+            padding-left: 30px;
+            //display: list-item;
+            position: relative;
+            margin-bottom: 24px;
+
+            @media #{$phone} {
+              padding-left: 20px;
+              margin-bottom: 20px;
+            }
+          }
+
+          p:not(p:nth-child(1))::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            transform: translateY(-25%);
+            left: 10px;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background-color: #2c3e46;
+
+            @media #{$phone} {
+              width: 3px;
+              height: 3px;
+            }
+          }
+        }
+
+        p:last-of-type {
+          margin-bottom: 24px;
+        }
+
+        .about-project__btn {
+          display: inline-flex;
+          align-items: center;
+          position: absolute;
+          bottom: -32px;
+          left: 120px;
+          text-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+
+          padding-right: 36px;
+          padding-left: 36px;
+
+          @media #{$laptop} {
+            position: relative;
+            left: auto;
+            bottom: 0;
+            align-self: center;
+          }
+        }
+      }
+    }
+
+    .about-project__image {
+      img {
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+.burger-menu {
+  position: fixed;
+  top: 110px;
+  width: 100%;
+  height: 100%;
+  z-index: 350;
+  overflow-x: hidden;
+  left: -100%;
+  transition: 0.6s;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  @media #{$phone} {
+    top: 90px;
+  }
+
+     .burger-menu__container {
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       padding: 38px 29px 22px 29px;
+       border-radius: 34px;
+       background: linear-gradient(180deg, rgba(18, 22, 30, 0.00) 53.1%, rgba(10, 11, 14, 0.80) 100%) rgba(10, 11, 14, 1);
+       backdrop-filter: blur(5px);
+       width: 100%;
+       height: 100%;
+
+       .burger__nav {
+         display: flex;
+         flex-direction: column;
+         margin-bottom: 324px;
+
+         ul {
+           display: flex;
+           flex-direction: column;
+
+           li {
+             color: #FFF;
+             font-family: $font-family-title;
+             font-size: 15px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: normal;
+           }
+
+           li:not(:last-child) {
+             margin-bottom: 25px;
+           }
+         }
+       }
+
+       .burger__contact {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-bottom: 17px;
+
+         a {
+           color: rgba(223, 44, 70, 0.30);
+           font-size: 25px;
+           font-style: normal;
+           font-weight: 400;
+           line-height: normal;
+
+           strong {
+             color: #CF162B;
+             font-size: 25px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: normal;
+           }
+         }
+       }
+
+       .burger__social {
+         display: flex;
+         justify-content: center;
+
+         ul {
+           li {
+             a {
+               svg {
+                 color: #E9E9E9;
+               }
+             }
+           }
+         }
+       }
+
+       .btn__burger-close {
+         position: absolute;
+         width: 30px;
+         height: 30px;
+         top: 23px;
+         right: 20px;
+         background-color: transparent;
+         border: none;
+         outline: none;
+
+         svg {
+           background-color: transparent;
+           color: #3A4059;
+         }
+       }
+     }
+}
+
+
+.burger-menu {
+  .animate {
+    left: 500px;
+  }
+}

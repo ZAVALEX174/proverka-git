@@ -1,0 +1,293 @@
+html,
+body {
+  //background-color: $color-white;
+  min-height: 100vh;
+  background: #f9fafc;
+  //background-color: rgba(238, 242, 245, 0.85);
+  //display: block;
+}
+
+body {
+  font-family: $font-family-base;
+  color: $color-main;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+
+  //outline: 1px solid coral !important;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  //font-family: $font-family-base;
+  color: $color-main;
+  margin: 0 0 20px 0;
+  //margin: 0 0 0 0;
+  padding: 0;
+}
+
+//h1,
+//.h1 {
+//  font-size: 40px;
+//
+//  @media #{$phone} {
+//    font-size: 30px;
+//  }
+//}
+
+h1,
+.h1 {
+  font-family: $font-family-base;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 0.44;
+  color: #244f77;
+
+  @media #{$phone} {
+    font-size: 30px;
+    line-height: 0.73333;
+    color: #244f77;
+  }
+}
+
+h2,
+.h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1;
+  color: $color-granat-title;
+  margin-bottom: 32px;
+
+  @media #{$tablet-mini} {
+    font-size: 34px;
+  }
+
+  @media #{$phone} {
+    font-size: 30px;
+    margin-bottom: 15px;
+    line-height: 1;
+  }
+}
+
+h3,
+.h3 {
+}
+
+h4,
+.h4 {
+  font-family: $font-family-title, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #363942;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+h5,
+.h6 {
+}
+
+h6,
+.h6 {
+}
+
+.fancybox {
+  &__backdrop {
+    background: rgb(0 0 0 / 65%) !important;
+  }
+}
+
+@media #{$phone} {
+  #panel {
+    display: none;
+  }
+}
+
+a {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    //color: $color-main;
+  }
+
+  &:hover,
+  &:active {
+    //color: #fff;
+    text-decoration: none;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1520px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  //border: 1px solid red;
+
+  @media #{$phone} {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family-title, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  //color: #45484b;
+  //margin-bottom: 20px;
+}
+
+strong {
+  font-weight: 700;
+  font-size: 18px;
+  color: #363942;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.none {
+  display: none;
+}
+
+//все title с псевдоэлементами скраев
+// .title {
+//   position: relative;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   font-weight: 700;
+//   font-size: clamp(30px, 2.6vw, 50px);
+//   //line-height: 0.44;
+//   color: #244f77;
+//   margin-bottom: 45px;
+// }
+
+// .title::before {
+//   position: relative;
+//   content: '';
+//   top: -3px;
+//   right: 3%;
+//   width: 180px;
+//   height: 6px;
+//   background: url('../images/title-right.svg') no-repeat;
+//   transform: rotate(180deg);
+
+//   @media #{$laptop_s} {
+//     width: 100px;
+//     height: 6px;
+//   }
+
+//   @media #{$tablet-mini} {
+//     width: 68px;
+//     height: 6px;
+//   }
+// }
+
+// .title::after {
+//   position: relative;
+//   content: '';
+//   top: -3px;
+//   left: 3%;
+//   width: 180px;
+//   height: 6px;
+//   background: url('../images/title-right.svg') no-repeat;
+
+//   @media #{$laptop_s} {
+//     width: 100px;
+//     height: 6px;
+//   }
+
+//   @media #{$tablet-mini} {
+//     width: 68px;
+//     height: 6px;
+//   }
+// }
+
+// .h1__left {
+//   position: relative;
+//   display: flex;
+//   align-items: center;
+//   justify-content: flex-start;
+//   margin-bottom: 0;
+// }
+
+// .h1__left::before {
+//  content: none;
+
+//   @media #{$phone} {
+//     content: '';
+//   }
+// }
+
+// .h1__none {
+//   position: relative;
+//   display: flex;
+//   align-items: center;
+//   justify-content: flex-start;
+//   margin-bottom: 0;
+// }
+
+// .h1__none::before {
+//   @media #{$tablet-mini} {
+//     content: none;
+//   }
+// }
+
+// .h1__none::after {
+//   @media #{$tablet-mini} {
+//     content: none;
+//   }
+// }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

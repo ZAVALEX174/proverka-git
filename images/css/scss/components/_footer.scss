@@ -1,0 +1,200 @@
+.footer {
+  position: relative;
+  margin-top: -226px;
+  padding-top: 18px;
+  background: rgba(12, 17, 19, 0.9);
+
+  @media #{$tablet} {
+    margin-top: -183px;
+  }
+
+  @media #{$phone} {
+    margin-top: -213px;
+  }
+
+  .footer__container {
+    display: flex;
+    // flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 44px;
+    align-items: flex-end;
+
+    @media #{$tablet} {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @media #{$phone} {
+      //display: grid;
+      //grid-auto-flow: column;
+      ////grid-template-columns: repeat(2, 1fr);
+      ////grid-template-rows: 45px 70px 56px;
+      //grid-template-areas:
+      //'social contact'
+      //'copyright logo-dev'
+      //'address address';
+      margin-bottom: 25px;
+    }
+
+    .footer__left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      @media #{$tablet} {
+        order: 2;
+      }
+
+      @media #{$phone} {
+        //display: grid;
+      }
+
+      .footer__nav {
+        margin-bottom: 100px;
+
+        @media #{$tablet} {
+          display: none;
+        }
+      }
+
+      .footer__left-down {
+        .copyright {
+          display: flex;
+          flex-direction: column;
+
+          @media #{$phone} {
+            //display: grid;
+            //grid-area: copyright;
+
+          }
+
+          p {
+            display: inline-block;
+            // display: block;
+            padding: 0;
+            margin: 0;
+            // display: inline-block;
+            color: #394a5e;
+            font-family: $font-family-title;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            @media #{$phone} {
+              margin-bottom: 15px;
+              max-width: 260px ;
+            }
+
+            a {
+              padding: 0;
+              margin: 0;
+              display: inline-block;
+              color: #394a5e;
+              font-family: $font-family-title;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+
+          address {
+            padding: 0;
+            margin: 0;
+            display: block;
+            font-style: normal;
+            color: #394a5e;
+            font-family: $font-family-title;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            @media #{$phone} {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+
+    .footer__right {
+      display: flex;
+      align-items: center;
+
+      @media #{$tablet} {
+       order: 1;
+      }
+
+      @media #{$phone} {
+        margin-bottom: 31px;
+      }
+
+      .footer__social {
+        margin-right: 43px;
+        align-self: center;
+        margin-top: -14px;
+
+        @media #{$notebook_s} {
+          margin-right: 30px;
+        }
+
+        @media #{$tablet-mini} {
+          margin-right: 20px;
+        }
+
+        @media #{$phone} {
+          //display: grid;
+          //grid-area: address;
+        }
+
+        .social__item {
+          .social__link {
+            svg {
+              color: #3a4b5e;
+              // opacity: 0.6;
+            }
+          }
+        }
+      }
+
+      .footer__contact {
+        margin-right: 53px;
+        text-align: end;
+        align-self: center;
+
+        @media #{$tablet-mini} {
+          margin-right: 20px;
+        }
+
+        @media #{$phone} {
+          margin: 0;
+        }
+
+        .contact__tel {
+        }
+
+        .contact__order-call {
+          color: $color-granat-call;
+        }
+      }
+
+      .logo__dev {
+        position: relative;
+        top: -5px;
+        align-self: center;
+
+        @media #{$phone} {
+          //display: grid;
+          //grid-area: logo-dev;
+          position: absolute;
+          top: 65px;
+          right: 10px;
+
+        }
+      }
+    }
+  }
+}

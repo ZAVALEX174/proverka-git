@@ -1,0 +1,126 @@
+// .container {
+
+//     @media #{$phone} {
+//       padding-left: 14px;
+//       padding-right: 14px;
+//     }
+
+//   .servises-page__title {
+//     margin-bottom: 5px;
+//     margin-top: 20px;
+
+//     @media #{$phone} {
+//       justify-content: center;
+
+//     }
+//   }
+
+//     .servises-section {
+//       margin-bottom: 40px;
+
+//       .container{
+//         padding-left: 0;
+//         padding-right: 0;
+//       }
+
+//       .servises-page__btn{
+//         display: none;
+//       }
+//     }
+
+//     .about-section {
+//       margin-bottom: 166px;
+
+//       @media #{$laptop_s} {
+//         display: none;
+//       }
+
+//       .servises-page__about-title {
+//         margin-bottom: 60px;
+//       }
+
+//       .about-page__container {
+
+//         .about-page__wrapper {
+//           max-width: 65%;
+//           height: 550px;
+
+//           div {
+//             margin-bottom: 37px;
+
+//             p {
+//               line-height: 22px;
+//             }
+//           }
+
+//           div:last-of-type {
+//             margin-bottom: 24px;
+//           }
+
+//           .about__btn {
+//             margin-top: 0;
+//             padding: 0 20px 0 56px;
+
+//             @media #{$tablet} {
+//               padding: 0 15px 0 22px;
+//             }
+
+//           }
+//         }
+
+//         .about-page__wrapper::before {
+//           top:-18%;
+//           bottom: 0;
+
+//           @media #{$laptop} {
+//             right: 60%;
+//           }
+
+//           @media #{$notebook} {
+//             right: 72%;
+//           }
+
+//           @media #{$notebook_s} {
+//             top: 10%;
+//             right: 72%;
+//           }
+//         }
+//       }
+//     }
+
+//   .consultation__servises {
+//     margin: 0 0 248px;
+
+
+//     @media #{$laptop_s} {
+//       margin: 0 0 124px;
+//     }
+
+//     @media #{$phone} {
+//       margin: 0 0 106px
+//     }
+
+//     .consultation__container-servises {
+
+//       @media #{$laptop_s} {
+//       }
+
+//       @media #{$phone} {
+//       }
+
+//       .consultation__form{
+//         .foto {
+
+//           @media #{$laptop_s} {
+//             top: 36%;
+//           }
+
+//           @media #{$phone} {
+//             top: 38%;
+//           }
+//         }
+//       }
+//     }
+//   }
+
+//   }
