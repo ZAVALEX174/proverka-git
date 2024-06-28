@@ -52,14 +52,12 @@
 }
 
 .contact__tel_mob {
-
   svg {
-    color: #E2E2E2;
+    color: #e2e2e2;
   }
 }
 
 .contact__tel_mob:hover {
-
   svg {
     color: $color-granat-subtitle;
     transition: color 0.3s ease-in;

@@ -30,7 +30,6 @@
     right: 18px !important;
     background: url('../images/fansy/close02.svg') no-repeat center/contain !important;
   }
-
 }
 
 .is-close-btn:hover {
@@ -48,7 +47,6 @@
     max-width: 764px;
     width: 100%;
   }
-
 
   .modal__container {
     width: 100%;
@@ -210,7 +208,6 @@
   height: 404px;
 
   .modal__container {
-    //border: 1px solid #fff; // после верстки удалить
     max-width: 764px;
     height: 404px;
 
@@ -220,7 +217,7 @@
       width: 100%;
       height: 100%;
       border-radius: 34px;
-       background: rgba(5, 8, 14, 0.6);
+      background: rgba(5, 8, 14, 0.6);
       //background-color: #fff;
       -webkit-backdrop-filter: blur(5px);
       backdrop-filter: blur(5px);
@@ -259,7 +256,7 @@
   }
 }
 
-.modal2.fancybox__content{
+.modal2.fancybox__content {
   .f-button.is-close-btn {
     top: 15px !important;
     right: 15px !important;
@@ -270,4 +267,3 @@
     background: url('../images/fansy/close03.svg') no-repeat center/contain !important;
   }
 }
-

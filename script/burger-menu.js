@@ -18,6 +18,7 @@ closeBurgerBtn.addEventListener('click', () => {
 //
 // })
 
-$('.navigation__link').click(function() {
+$('.navigation__link').click(function () {
     burgerModal.style.left = '-100%';
+    document.body.style.overflow = "";
 });

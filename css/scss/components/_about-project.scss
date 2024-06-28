@@ -1,5 +1,4 @@
 .about-project {
-
   h2 {
     margin-bottom: 46px;
     font-size: 50px;
@@ -22,8 +21,8 @@
   }
 
   .about-project__container {
-    background: url('../images/about-project/01.png') no-repeat top
-      right/50% 100%;
+    background: url('../images/about-project/01.png') no-repeat top right/50%
+      100%;
     display: flex;
     flex-direction: column;
     margin-top: -60px;
@@ -32,7 +31,7 @@
 
     @media #{$laptop} {
       background: url('../images/about-project/01.png') no-repeat bottom
-      center/contain;
+        center/contain;
       margin-top: 0;
       padding: 0 10px 0;
       margin-bottom: 71px;
@@ -106,7 +105,6 @@
         }
 
         p:nth-child(2) {
-
           @media #{$phone} {
             margin-bottom: 17px;
           }
@@ -203,11 +201,6 @@
             align-self: center;
           }
         }
-      }
-    }
-
-    .about-project__image {
-      img {
       }
     }
   }

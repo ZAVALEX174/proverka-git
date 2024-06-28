@@ -19,10 +19,6 @@
   }
 
   .layouts-swipers-box {
-
-    //border: 1px solid red;
-    //display: flex;
-    //flex-direction: column;
     max-width: 1920px;
     width: 100%;
     min-height: 1100px;
@@ -40,14 +36,11 @@
 
     @media #{$phone} {
       display: flex;
-      //flex-direction: column-reverse;
       margin-bottom: 73px;
       min-height: auto;
     }
 
     .mySwiper2 {
-      //border: 1px solid blue;
-      //margin-right: -100px;
       position: relative;
       text-align: left;
       margin-bottom: 5px;
@@ -65,25 +58,15 @@
         display: none;
       }
 
-      .layouts__swiper-wrapper2 {
-        //border: 1px solid greenyellow;
-        //margin-right: 70px;
-      }
-
       .swiper__btn {
         position: absolute;
         top: 324px;
-        //right: 135px;
         right: -31px;
         width: 133px;
         height: 68px;
         box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.005);
         border-radius: 48px;
         z-index: 50;
-
-        //@media #{$desktop_x} {
-        //  right: 0;
-        //}
 
         @media #{$tablet} {
           display: none;
@@ -192,8 +175,6 @@
     }
 
     .mySwiper {
-      //max-width: 1591px;
-      //width: 100%;
       max-width: 1600px;
       margin-left: 128px;
       height: 35%;
@@ -204,7 +185,6 @@
       padding-bottom: 100px;
       box-sizing: border-box;
       overflow: hidden;
-      //border: 1px solid orange;
 
       @media #{$desktop} {
         margin-left: auto;
@@ -220,13 +200,10 @@
       }
 
       .swiper-wrapper02 {
-        //width: 2000px;
         position: relative;
         z-index: 50;
-        //border: 1px solid green;
         background-color: #fff;
         left: 21px;
-
 
         @media #{$desktop} {
           margin-left: auto;
@@ -245,8 +222,6 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          //padding-left: 100px;
-          //max-width: 375px;
           width: 25%;
           background-color: #fff;
           filter: grayscale(100%); //для проверки
@@ -431,7 +406,6 @@
           }
 
           .swiper-pagination-progressbar-fill {
-
             border-radius: 10px !important;
             background: #df2c46;
           }
@@ -484,11 +458,9 @@
 }
 
 .layouts__swiper-slide2 {
-  //border: 1px solid blueviolet;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  //margin-left: 70px;
 
   @media #{$tablet-mini} {
     flex-direction: column;
@@ -498,7 +470,6 @@
   @media #{$phone} {
     justify-content: flex-start;
   }
-
 
   .shema-plan {
     position: relative;
@@ -580,7 +551,6 @@
       padding-top: 25px;
 
       @media #{$phone} {
-        
         padding-top: 50px;
         padding-bottom: 30px;
         //min-height: 150vh;
@@ -698,7 +668,7 @@
   }
 }
 
-.layouts__swiper-slide2.fancybox__content{
+.layouts__swiper-slide2.fancybox__content {
   .f-button.is-close-btn {
     top: 15px !important;
     right: 15px !important;

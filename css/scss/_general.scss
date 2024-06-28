@@ -4,12 +4,8 @@ html {
 
 html,
 body {
-  //background-color: $color-white;
   min-height: 100vh;
   background: #f9fafc;
-  //background-color: rgba(238, 242, 245, 0.85);
-  //display: block;
-  // scroll-behavior: smooth;
 }
 
 body {
@@ -192,96 +188,6 @@ a {
 .none {
   display: none;
 }
-
-//все title с псевдоэлементами скраев
-// .title {
-//   position: relative;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   font-weight: 700;
-//   font-size: clamp(30px, 2.6vw, 50px);
-//   //line-height: 0.44;
-//   color: #244f77;
-//   margin-bottom: 45px;
-// }
-
-// .title::before {
-//   position: relative;
-//   content: '';
-//   top: -3px;
-//   right: 3%;
-//   width: 180px;
-//   height: 6px;
-//   background: url('../images/title-right.svg') no-repeat;
-//   transform: rotate(180deg);
-
-//   @media #{$laptop_s} {
-//     width: 100px;
-//     height: 6px;
-//   }
-
-//   @media #{$tablet-mini} {
-//     width: 68px;
-//     height: 6px;
-//   }
-// }
-
-// .title::after {
-//   position: relative;
-//   content: '';
-//   top: -3px;
-//   left: 3%;
-//   width: 180px;
-//   height: 6px;
-//   background: url('../images/title-right.svg') no-repeat;
-
-//   @media #{$laptop_s} {
-//     width: 100px;
-//     height: 6px;
-//   }
-
-//   @media #{$tablet-mini} {
-//     width: 68px;
-//     height: 6px;
-//   }
-// }
-
-// .h1__left {
-//   position: relative;
-//   display: flex;
-//   align-items: center;
-//   justify-content: flex-start;
-//   margin-bottom: 0;
-// }
-
-// .h1__left::before {
-//  content: none;
-
-//   @media #{$phone} {
-//     content: '';
-//   }
-// }
-
-// .h1__none {
-//   position: relative;
-//   display: flex;
-//   align-items: center;
-//   justify-content: flex-start;
-//   margin-bottom: 0;
-// }
-
-// .h1__none::before {
-//   @media #{$tablet-mini} {
-//     content: none;
-//   }
-// }
-
-// .h1__none::after {
-//   @media #{$tablet-mini} {
-//     content: none;
-//   }
-// }
 
 .visually-hidden {
   position: absolute;

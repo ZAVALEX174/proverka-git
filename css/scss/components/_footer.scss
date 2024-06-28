@@ -26,14 +26,6 @@
     }
 
     @media #{$phone} {
-      //display: grid;
-      //grid-auto-flow: column;
-      ////grid-template-columns: repeat(2, 1fr);
-      ////grid-template-rows: 45px 70px 56px;
-      //grid-template-areas:
-      //'social contact'
-      //'copyright logo-dev'
-      //'address address';
       margin-bottom: 25px;
     }
 
@@ -66,7 +58,6 @@
 
           @media #{$phone} {
             //align-items: center;
-
           }
 
           p {
@@ -85,7 +76,7 @@
 
             @media #{$phone} {
               margin-bottom: 15px;
-              max-width: 260px ;
+              max-width: 260px;
             }
 
             a {
@@ -126,7 +117,7 @@
       align-items: center;
 
       @media #{$tablet} {
-       order: 1;
+        order: 1;
       }
 
       @media #{$phone} {
@@ -193,7 +184,6 @@
           position: absolute;
           top: 65px;
           right: 10px;
-
         }
       }
     }

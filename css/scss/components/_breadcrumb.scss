@@ -1,64 +1,64 @@
-.breadcrumb {
-  margin-top:  156px;
-  margin-bottom: 40px;
+// .breadcrumb {
+//   margin-top:  156px;
+//   margin-bottom: 40px;
 
-  @media #{$tablet} {
-    margin-top:  108px;
-  }
+//   @media #{$tablet} {
+//     margin-top:  108px;
+//   }
 
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    //text-transform: capitalize;
-    row-gap: 30px;
-    position: relative;
-    z-index: 10;
+//   ul {
+//     display: flex;
+//     flex-wrap: wrap;
+//     list-style: none;
+//     margin: 0;
+//     padding: 0;
+//     //text-transform: capitalize;
+//     row-gap: 30px;
+//     position: relative;
+//     z-index: 10;
 
-    li {
-      font-family: $font-family-title, sans-serif;
-      //text-transform: capitalize;
-      position: relative;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
+//     li {
+//       font-family: $font-family-title, sans-serif;
+//       //text-transform: capitalize;
+//       position: relative;
+//       display: inline-flex;
+//       align-items: center;
+//       justify-content: center;
 
-      a {
-        //position: relative;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        //text-transform: capitalize;
-        padding-right: 10px;
-        padding-left: 10px;
-        font-family: $font-family-title,sans-serif;
-        font-weight: 400;
-        font-size: 14px; //22px
-        line-height: 157%;
-        color: #636974;
+//       a {
+//         //position: relative;
+//         display: inline-flex;
+//         align-items: center;
+//         justify-content: center;
+//         //text-transform: capitalize;
+//         padding-right: 10px;
+//         padding-left: 10px;
+//         font-family: $font-family-title,sans-serif;
+//         font-weight: 400;
+//         font-size: 14px; //22px
+//         line-height: 157%;
+//         color: #636974;
 
-        @media #{$phone_s} {
-          padding-right: 0;
-          padding-left: 0;
-        }
-      }
+//         @media #{$phone_s} {
+//           padding-right: 0;
+//           padding-left: 0;
+//         }
+//       }
 
-      a:hover {
-        color: #34C3FF;
-      }
+//       a:hover {
+//         color: #34C3FF;
+//       }
 
-      span {
-        //text-transform: capitalize;
-        padding-right: 10px;
-        padding-left: 10px;
-        font-family: $font-family-title,sans-serif;
-        font-weight: 400;
-        font-size: 14px; //22px
-        line-height: 157%;
-        color: #636974;
-      }
-    }
-  }
-}
+//       span {
+//         //text-transform: capitalize;
+//         padding-right: 10px;
+//         padding-left: 10px;
+//         font-family: $font-family-title,sans-serif;
+//         font-weight: 400;
+//         font-size: 14px; //22px
+//         line-height: 157%;
+//         color: #636974;
+//       }
+//     }
+//   }
+// }

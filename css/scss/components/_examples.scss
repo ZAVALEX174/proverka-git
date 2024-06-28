@@ -8,9 +8,6 @@
     line-height: 25px; /* 50% */
     position: relative;
     z-index: 10;
-    //scroll-margin-top: 540px;
-
-    // scroll-padding-top: 130px;
 
     @media #{$tablet-mini} {
       text-align: center;
@@ -22,8 +19,6 @@
   }
 
   .layouts-swipers-box {
-    //display: flex;
-    //flex-direction: column;
     max-width: 1920px;
     width: 100%;
     min-height: 1100px;
@@ -388,7 +383,6 @@
         background-color: #fff;
         left: 21px;
 
-
         @media #{$desktop} {
           margin-left: auto;
         }
@@ -580,7 +574,6 @@
           }
 
           .swiper-pagination-progressbar-fill {
-
             border-radius: 10px !important;
             background: #df2c46;
           }
