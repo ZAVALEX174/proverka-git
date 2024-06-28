@@ -1,0 +1,183 @@
+// .button-go-up {
+//   background: transparent;
+//   position: fixed;
+//   top: 83%;
+//   right: 0;
+//   z-index: 500;
+//   display: none;
+
+//   @media #{$laptop_s} {
+//     display: none;
+//   }
+
+//   .btn-go-up {
+//     border-radius: 13px 0 0 13px;
+//     box-shadow: 0 4px 60px 0 rgba(0, 0, 0, 0.15);
+//     background: rgba(25, 33, 50, 0.8);
+//     padding: 0 18px;
+//   }
+//   .btn-go-up:hover {
+//     border-radius: 13px 0 0 13px;
+//     background: rgba(25, 23, 30, 0.8);
+//     padding: 0 18px;
+
+//     svg {
+//       color: #fff;
+//     }
+//   }
+// }
+
+// .button-go-up__show {
+//   display: block;
+
+//   @media #{$laptop_s} {
+//     display: none;
+//   }
+// }
+
+
+.down-button {
+  display: inline-flex;
+  position: absolute;
+  padding-bottom: 10px;
+  //top: 940px;
+  top: 900px;
+  left: 49%;
+  transform: translateY(-50%);
+  border-radius: 50px;
+  width: 40px;
+  height: 95px;
+  align-items: center;
+  justify-content: center;
+  //background-color: #8f9ea5;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(3px);
+  z-index: 10;
+
+     @media #{$tablet} {
+       top: 850px;
+     }
+
+    @media #{$tablet-mini} {
+      top: 650px;
+    }
+
+    @media #{$phone} {
+      display: none;
+    }
+
+  .arrows {
+    width: 40px;
+    height: 95px;
+    bottom: 20px;
+  }
+
+  .arrows circle  {
+    animation: arrow 1.75s infinite;
+    -webkit-animation: arrow 1.75s infinite;
+    fill: #DF2C46;
+  }
+
+  .arrows .a4  {
+    animation: arrow 1.75s infinite;
+    -webkit-animation: arrow 1.75s infinite;
+    fill: #fff;
+  }
+
+  .arrows path {
+    fill: #fff;
+    stroke-width: 1.75px;
+    animation: arrow 1.75s infinite;
+    -webkit-animation: arrow 1.75s infinite;
+    fill: #fff;
+  }
+
+  @keyframes arrow
+  {
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+  }
+
+  @-webkit-keyframes arrow /*Safari and Chrome*/
+  {
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+  }
+
+  .arrows circle.a1 {
+    animation-delay:-0.75s;
+    -webkit-animation-delay:-0.75s; /* Safari 和 Chrome */
+  }
+
+  .arrows circle.b2 {
+    animation-delay:-0.50s;
+    -webkit-animation-delay:-0.50s; /* Safari 和 Chrome */
+  }
+
+  .arrows circle.a3 {
+    animation-delay:-0.25s;
+    -webkit-animation-delay:-0.25s; /* Safari 和 Chrome */
+  }
+  .arrows circle.a4 {
+    animation-delay:-0.15s;
+    -webkit-animation-delay:-0.15s; /* Safari 和 Chrome */
+  }
+  .arrows path.b4 {
+    animation-delay:0s;
+    -webkit-animation-delay:0s; /* Safari 和 Chrome */
+  }
+}
+
+// для самого goUp
+
+.button-go-up {
+  position: fixed;
+  right: 16px;
+  width: 63px;
+  height: 63px;
+  top: 83%;
+  z-index: 500;
+  display: none;
+  cursor: pointer;
+
+     @media #{$laptop_s} {
+       display: none;
+     }
+
+  .white-rotate {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 63px;
+    height: 63px;
+    border-radius: 63px;
+    background: rgba(0, 0, 0, 0.10);
+    padding-top: 0;
+    cursor: pointer;
+
+    .arrows {
+      margin-bottom: 40px;
+      //margin-top: 20px;
+      top: 20px;
+      width: 40px;
+      height: 95px;
+
+      circle {
+        fill: #fff;
+      }
+    }
+  }
+}
+
+ .button-go-up__show {
+   display: block;
+
+   @media #{$laptop_s} {
+     display: none;
+   }
+ }

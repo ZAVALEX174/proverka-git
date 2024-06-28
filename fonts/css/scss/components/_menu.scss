@@ -1,0 +1,58 @@
+.navigation {
+  //display: flex;
+  //justify-content: space-between;
+
+  .navigation__list {
+    display: flex;
+    // flex-wrap: wrap;
+    //justify-content: space-between;
+
+    .navigation__item {
+      margin-right: 80px;
+
+      @media #{$desktop} {
+        margin-right: 60px;
+      }
+
+      @media #{$laptop} {
+        margin-right: 50px;
+      }
+
+      @media #{$notebook} {
+        margin-right: 30px;
+      }
+
+      @media #{$notebook_s} {
+        margin-right: 20px;
+        font-size: 13px;
+      }
+
+      @media #{$laptop_s} {
+        margin-right: 15px;
+      }
+
+      .navigation__link {
+        color: #fff;
+        font-family: $font-family-title;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        transition: color 0.3s ease-in;
+
+        @media #{$notebook_s} {
+          font-size: 13px;
+        }
+      }
+
+      .navigation__link:hover {
+        color: $color-granat-contact;
+        transition: color 0.3s ease-in;
+      }
+    }
+
+    .navigation__item:last-child {
+      margin-right: 0;
+    }
+  }
+}
